@@ -15,53 +15,60 @@ A modern and responsive weather web application that allows users to search for 
 * Fully responsive design for mobile, tablet, and desktop devices.
 * Fast and lightweight implementation using Vanilla JavaScript.
 
-## 🛠️ Technologies Used
+## Tech Stack
 
-* **Frontend:** HTML5, CSS3, JavaScript (ES6)
-* **Styling:** Custom CSS
-* **Assets:** SVG Icons & Images
-* **Development Tools:** Git, GitHub, VS Code
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Express.js
+- OpenWeatherMap API
 
 ## 📂 Project Structure
 
-```bash
+```text
 Weather-App/
 │
-├── index.html
-├── style.css
-├── script.js
-├── image1.jpeg
-├── Preview.jpeg
-├── search-outline.svg
-├── README.md
-└── .gitignore
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── image1.jpeg
+│   └── search-outline.svg
+│
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── server.js
+└── README.md
 ```
 
-## 🚀 How to Run Locally
-
-### 1️⃣ Clone the Repository
+## Installation
 
 ```bash
-git clone https://github.com/meghramb/weather-app.git
+git clone <repository-url>
+cd Weather-App
+npm install
 ```
 
-### 2️⃣ Navigate to the Project Directory
+Create a `.env` file:
+
+```env
+OPENWEATHER_API_KEY=your_api_key_here
+```
+
+Run:
 
 ```bash
-cd weather-app
+node server.js
 ```
 
-### 3️⃣ Open the Application
+Open:
 
-Simply open `index.html` in your preferred web browser.
-
-## 🎯 Future Improvements
-
-* Add 5-day weather forecast.
-* Detect user's current location automatically.
-* Add dark/light mode toggle.
-* Improve error handling and loading animations.
-* Display additional weather details such as pressure and visibility.
+```text
+http://localhost:3000
+```
 
 ## 🤝 Contributing
 
